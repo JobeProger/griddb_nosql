@@ -1,0 +1,29 @@
+"use strict";
+
+var money = 50000;
+var time = 2019-12-16;
+ 
+prompt( "Ваш бюджет на месяц?");
+console.log(prompt);
+
+prompt( 'Введите данные в формате YYYY-MM-DD');
+console.log(prompt);
+    
+
+var income = 0;   
+var AppData = {
+    budget: money,
+    timeData: time,
+    expenses: {
+        'Утюг':
+        "11000"
+    },
+    optionalExpenses: 0,
+    income: 0,
+    savings:  false
+}
+
+prompt('Введите обязательную статью расходов в этом месяце')
+prompt('Во сколько обойдется?')
+
+alert(money - 11000)
